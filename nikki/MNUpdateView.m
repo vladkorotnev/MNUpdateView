@@ -26,6 +26,7 @@ static bool stopDrawing=false;
 
 
 -(void)animateIn {
+    [self setUserInteractionEnabled:TRUE];
     NSError *e;
     AVAudioPlayer * a = [[AVAudioPlayer alloc]initWithContentsOfURL:[[NSBundle mainBundle]URLForResource:@"update" withExtension:@"wav"] error:&e];
   //  [a prepareToPlay];
@@ -52,6 +53,7 @@ static bool stopDrawing=false;
 }
 - (void)_didFinishAnimateOut {
     stopDrawing = true;
+    [self setUserInteractionEnabled:FALSE];
 }
 -(void)doAnimateForDelegate:(NSObject<MNUpdateViewDelegate>*)del {
     [self setAlpha:0.7];
