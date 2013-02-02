@@ -1,6 +1,7 @@
 MNUpdateView
 ============
 Demonstration on youtube: http://www.youtube.com/watch?v=_NKB2a1nA74
+
 未来日記-inspired transition view, with sound
 
 Demo
