@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8230DE9C16BD0A5500654508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230DE9B16BD0A5500654508 /* UIKit.framework */; };
+		8230DE9E16BD0A5500654508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230DE9D16BD0A5500654508 /* Foundation.framework */; };
+		8230DEA616BD0A5500654508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEA416BD0A5500654508 /* InfoPlist.strings */; };
+		8230DEA816BD0A5500654508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8230DEA716BD0A5500654508 /* main.m */; };
+		8230DEAC16BD0A5500654508 /* MNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8230DEAB16BD0A5500654508 /* MNAppDelegate.m */; };
+		8230DEAE16BD0A5500654508 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEAD16BD0A5500654508 /* Default.png */; };
+		8230DEB016BD0A5500654508 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEAF16BD0A5500654508 /* Default@2x.png */; };
+		8230DEB216BD0A5500654508 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEB116BD0A5500654508 /* Default-568h@2x.png */; };
+		8230DEBF16BD0D1D00654508 /* MNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8230DEBD16BD0D1D00654508 /* MNViewController.m */; };
+		8230DEC016BD0D1D00654508 /* MNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEBE16BD0D1D00654508 /* MNViewController.xib */; };
+		8230DEC716BD119900654508 /* noise0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEC416BD119900654508 /* noise0.png */; };
+		8230DEC816BD119900654508 /* noise1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEC516BD119900654508 /* noise1.png */; };
+		8230DEC916BD119900654508 /* noise2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEC616BD119900654508 /* noise2.png */; };
+		8230DECC16BD12EF00654508 /* MNUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8230DECB16BD12EF00654508 /* MNUpdateView.m */; };
+		8230DEEA16BD203200654508 /* update.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEE916BD203100654508 /* update.wav */; };
+		8230DEEE16BD213600654508 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230DEED16BD213600654508 /* AVFoundation.framework */; };
+		8230DEF016BD38B000654508 /* noise3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEEF16BD38B000654508 /* noise3.png */; };
+		8230DEF216BD397F00654508 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEF116BD397F00654508 /* Icon.png */; };
+		8230DEF416BD398900654508 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8230DEF316BD398900654508 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8230DE9816BD0A5500654508 /* nikki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8230DE9B16BD0A5500654508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8230DE9D16BD0A5500654508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8230DE9F16BD0A5500654508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8230DEA316BD0A5500654508 /* nikki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nikki-Info.plist"; sourceTree = "<group>"; };
+		8230DEA516BD0A5500654508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8230DEA716BD0A5500654508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8230DEA916BD0A5500654508 /* nikki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nikki-Prefix.pch"; sourceTree = "<group>"; };
+		8230DEAA16BD0A5500654508 /* MNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNAppDelegate.h; sourceTree = "<group>"; };
+		8230DEAB16BD0A5500654508 /* MNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAppDelegate.m; sourceTree = "<group>"; };
+		8230DEAD16BD0A5500654508 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8230DEAF16BD0A5500654508 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8230DEB116BD0A5500654508 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8230DEBC16BD0D1D00654508 /* MNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNViewController.h; sourceTree = "<group>"; };
+		8230DEBD16BD0D1D00654508 /* MNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNViewController.m; sourceTree = "<group>"; };
+		8230DEBE16BD0D1D00654508 /* MNViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MNViewController.xib; sourceTree = "<group>"; };
+		8230DEC416BD119900654508 /* noise0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise0.png; sourceTree = "<group>"; };
+		8230DEC516BD119900654508 /* noise1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise1.png; sourceTree = "<group>"; };
+		8230DEC616BD119900654508 /* noise2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise2.png; sourceTree = "<group>"; };
+		8230DECA16BD12EF00654508 /* MNUpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNUpdateView.h; sourceTree = "<group>"; };
+		8230DECB16BD12EF00654508 /* MNUpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNUpdateView.m; sourceTree = "<group>"; };
+		8230DEE916BD203100654508 /* update.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = update.wav; sourceTree = "<group>"; };
+		8230DEED16BD213600654508 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8230DEEF16BD38B000654508 /* noise3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise3.png; sourceTree = "<group>"; };
+		8230DEF116BD397F00654508 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8230DEF316BD398900654508 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8230DE9516BD0A5500654508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8230DEEE16BD213600654508 /* AVFoundation.framework in Frameworks */,
+				8230DE9C16BD0A5500654508 /* UIKit.framework in Frameworks */,
+				8230DE9E16BD0A5500654508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8230DE8F16BD0A5500654508 = {
+			isa = PBXGroup;
+			children = (
+				8230DEF316BD398900654508 /* Icon@2x.png */,
+				8230DEF116BD397F00654508 /* Icon.png */,
+				8230DEED16BD213600654508 /* AVFoundation.framework */,
+				8230DEA116BD0A5500654508 /* nikki */,
+				8230DE9A16BD0A5500654508 /* Frameworks */,
+				8230DE9916BD0A5500654508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8230DE9916BD0A5500654508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8230DE9816BD0A5500654508 /* nikki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8230DE9A16BD0A5500654508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8230DE9B16BD0A5500654508 /* UIKit.framework */,
+				8230DE9D16BD0A5500654508 /* Foundation.framework */,
+				8230DE9F16BD0A5500654508 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8230DEA116BD0A5500654508 /* nikki */ = {
+			isa = PBXGroup;
+			children = (
+				8230DEC416BD119900654508 /* noise0.png */,
+				8230DEC516BD119900654508 /* noise1.png */,
+				8230DEC616BD119900654508 /* noise2.png */,
+				8230DEEF16BD38B000654508 /* noise3.png */,
+				8230DEE916BD203100654508 /* update.wav */,
+				8230DEAA16BD0A5500654508 /* MNAppDelegate.h */,
+				8230DEAB16BD0A5500654508 /* MNAppDelegate.m */,
+				8230DEBC16BD0D1D00654508 /* MNViewController.h */,
+				8230DEBD16BD0D1D00654508 /* MNViewController.m */,
+				8230DECA16BD12EF00654508 /* MNUpdateView.h */,
+				8230DECB16BD12EF00654508 /* MNUpdateView.m */,
+				8230DEBE16BD0D1D00654508 /* MNViewController.xib */,
+				8230DEA216BD0A5500654508 /* Supporting Files */,
+			);
+			path = nikki;
+			sourceTree = "<group>";
+		};
+		8230DEA216BD0A5500654508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8230DEA316BD0A5500654508 /* nikki-Info.plist */,
+				8230DEA416BD0A5500654508 /* InfoPlist.strings */,
+				8230DEA716BD0A5500654508 /* main.m */,
+				8230DEA916BD0A5500654508 /* nikki-Prefix.pch */,
+				8230DEAD16BD0A5500654508 /* Default.png */,
+				8230DEAF16BD0A5500654508 /* Default@2x.png */,
+				8230DEB116BD0A5500654508 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8230DE9716BD0A5500654508 /* nikki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8230DEB516BD0A5500654508 /* Build configuration list for PBXNativeTarget "nikki" */;
+			buildPhases = (
+				8230DE9416BD0A5500654508 /* Sources */,
+				8230DE9516BD0A5500654508 /* Frameworks */,
+				8230DE9616BD0A5500654508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nikki;
+			productName = nikki;
+			productReference = 8230DE9816BD0A5500654508 /* nikki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8230DE9016BD0A5500654508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 8230DE9316BD0A5500654508 /* Build configuration list for PBXProject "nikki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8230DE8F16BD0A5500654508;
+			productRefGroup = 8230DE9916BD0A5500654508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8230DE9716BD0A5500654508 /* nikki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8230DE9616BD0A5500654508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8230DEA616BD0A5500654508 /* InfoPlist.strings in Resources */,
+				8230DEAE16BD0A5500654508 /* Default.png in Resources */,
+				8230DEB016BD0A5500654508 /* Default@2x.png in Resources */,
+				8230DEB216BD0A5500654508 /* Default-568h@2x.png in Resources */,
+				8230DEC016BD0D1D00654508 /* MNViewController.xib in Resources */,
+				8230DEC716BD119900654508 /* noise0.png in Resources */,
+				8230DEC816BD119900654508 /* noise1.png in Resources */,
+				8230DEC916BD119900654508 /* noise2.png in Resources */,
+				8230DEEA16BD203200654508 /* update.wav in Resources */,
+				8230DEF016BD38B000654508 /* noise3.png in Resources */,
+				8230DEF216BD397F00654508 /* Icon.png in Resources */,
+				8230DEF416BD398900654508 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8230DE9416BD0A5500654508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8230DEA816BD0A5500654508 /* main.m in Sources */,
+				8230DEAC16BD0A5500654508 /* MNAppDelegate.m in Sources */,
+				8230DEBF16BD0D1D00654508 /* MNViewController.m in Sources */,
+				8230DECC16BD12EF00654508 /* MNUpdateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8230DEA416BD0A5500654508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8230DEA516BD0A5500654508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8230DEB316BD0A5500654508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8230DEB416BD0A5500654508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8230DEB616BD0A5500654508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Guichelaar (572CRJVFQ9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				INFOPLIST_FILE = "nikki/nikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "717FD4F3-C5AA-428E-BC10-554B61CA11E3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8230DEB716BD0A5500654508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Guichelaar (572CRJVFQ9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				INFOPLIST_FILE = "nikki/nikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "717FD4F3-C5AA-428E-BC10-554B61CA11E3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8230DE9316BD0A5500654508 /* Build configuration list for PBXProject "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8230DEB316BD0A5500654508 /* Debug */,
+				8230DEB416BD0A5500654508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8230DEB516BD0A5500654508 /* Build configuration list for PBXNativeTarget "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8230DEB616BD0A5500654508 /* Debug */,
+				8230DEB716BD0A5500654508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8230DE9016BD0A5500654508 /* Project object */;
+}
